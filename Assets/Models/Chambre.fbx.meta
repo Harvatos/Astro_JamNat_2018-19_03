@@ -220,7 +220,42 @@ ModelImporter:
     4300074: Group_73
     4300076: Josh
     4300078: roof
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Material
+    second: {fileID: 2100000, guid: 179bf64dd48755141958aec9820212e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Josh_Shirt_01
+    second: {fileID: 2100000, guid: 179bf64dd48755141958aec9820212e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Color_L01_
+    second: {fileID: 2100000, guid: 179bf64dd48755141958aec9820212e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Color_M00_
+    second: {fileID: 2100000, guid: 179bf64dd48755141958aec9820212e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Josh_Beard_
+    second: {fileID: 2100000, guid: 179bf64dd48755141958aec9820212e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Metal_Seamed_
+    second: {fileID: 2100000, guid: 179bf64dd48755141958aec9820212e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: 179bf64dd48755141958aec9820212e2, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
