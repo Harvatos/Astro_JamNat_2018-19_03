@@ -5,7 +5,9 @@ using UnityEngine;
 public class InteractableObject : MonoBehaviour
 {
 	public string displayName = "Object";
-	public Rigidbody rb { get; private set; }	
+	public Rigidbody rb { get; private set; }
+
+	public string audioEvent;
 
     private void Start()
     {
