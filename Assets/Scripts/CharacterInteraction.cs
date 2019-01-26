@@ -50,7 +50,7 @@ public class CharacterInteraction : MonoBehaviour
 		{
 			InteractableObject iObj = hit.transform.GetComponent<InteractableObject>();
 			objectNameDisplay.text = iObj.displayName;
-			if (Input.GetMouseButtonDown(0))
+			if (Input.GetMouseButtonDown(0) && !iObj.isBurning)
 			{
 				Grab(iObj);
 			}

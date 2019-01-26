@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class GameController : MonoBehaviour
 {
@@ -9,6 +10,10 @@ public class GameController : MonoBehaviour
 
 	public GameObject playerObject;
 	public CharacterInteraction playerInteraction;
+	public ScreenshootScript twitterCam;
+
+    // added 
+    TextMeshProUGUI subtitlesDisplay;
 
 	public float temperature = 50f;
 	private float effectiveTemperature;
@@ -34,6 +39,8 @@ public class GameController : MonoBehaviour
 		instance = this;
 		effectiveTemperature = temperature;
 		gameTimer = gameDuration * 60f;
+
+		fadeScreen.alpha = 1f;
     }
 
 	public void BoostHeat()
@@ -65,7 +72,9 @@ public class GameController : MonoBehaviour
 
 	private void GameUpdate()
 	{
-		temperature -= temperatureLossSpeed;
+		fadeScreen.alpha -= fadeSpeed * Time.deltaTime;
+
+		temperature -= temperatureLossSpeed * Time.deltaTime;
 		effectiveTemperature = Mathf.SmoothDamp(effectiveTemperature, temperature, ref smoothVelRef, temperatureSmoothTime);
 		if (effectiveTemperature <= 0f)
 			{ EndGame_ColdDeath(); return; }
@@ -123,8 +132,8 @@ public class GameController : MonoBehaviour
 
 		fadeScreenImage.color = winFadeColor;
 
+		twitterCam.TakeTweet("TestName");
 		playerObject.SetActive(false);
-		//Call screenshot bot
 	}
 	public void EndGame_ColdDeath()
 	{
@@ -148,4 +157,18 @@ public class GameController : MonoBehaviour
 
 		//Show fire death message
 	}
+
+
+    public void UpdateSubtitle(string subtitle)
+    {
+        StartCoroutine(PrintSubtitle(subtitle));
+    }
+
+    IEnumerator PrintSubtitle(string subtitle)
+    {
+        subtitlesDisplay.text = subtitle;
+        yield return new WaitForSeconds(2f);
+        subtitlesDisplay.text = "";
+    }
+
 }

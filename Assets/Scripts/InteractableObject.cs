@@ -8,10 +8,13 @@ public class InteractableObject : MonoBehaviour
 
 	public string displayName = "Object";
 	public Rigidbody rb { get; private set; }
+	public MeshRenderer meshRenderer;
+	public Material burningMaterial;
 
 	public string audioEvent;
+	public string subtitle;
 
-	public float burnSpeed = 0.5f;
+	private float burnSpeed = 0.5f;
 	private float burnProgress = 0f;
 
     private void Start()
@@ -25,10 +28,7 @@ public class InteractableObject : MonoBehaviour
 		if (isBurning)
 		{
 			burnProgress += Time.deltaTime * burnSpeed;
-			if (burnProgress > 1f)
-			{
-				Destroy(gameObject);
-			}
+			meshRenderer.material.SetFloat("_DissolveValue", burnProgress);
 		}
 	}
 
@@ -38,6 +38,8 @@ public class InteractableObject : MonoBehaviour
 		{
 			isBurning = true;
 			GameController.instance.BoostHeat();
+			meshRenderer.material = burningMaterial;
+			Destroy(gameObject, 1f / burnSpeed);
 		}
 	}
 }
