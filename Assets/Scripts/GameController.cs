@@ -34,7 +34,7 @@ public class GameController : MonoBehaviour
     {
 		instance = this;
 		effectiveTemperature = temperature;
-		gameTimer = gameDuration * 10f;
+		gameTimer = gameDuration * 60f;
 
 		fadeScreen.alpha = 1f;
     }
