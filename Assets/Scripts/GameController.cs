@@ -34,6 +34,8 @@ public class GameController : MonoBehaviour
 		instance = this;
 		effectiveTemperature = temperature;
 		gameTimer = gameDuration * 60f;
+
+		fadeScreen.alpha = 1f;
     }
 
 	public void BoostHeat()
@@ -65,7 +67,9 @@ public class GameController : MonoBehaviour
 
 	private void GameUpdate()
 	{
-		temperature -= temperatureLossSpeed;
+		fadeScreen.alpha -= fadeSpeed * Time.deltaTime;
+
+		temperature -= temperatureLossSpeed * Time.deltaTime;
 		effectiveTemperature = Mathf.SmoothDamp(effectiveTemperature, temperature, ref smoothVelRef, temperatureSmoothTime);
 		if (effectiveTemperature <= 0f)
 			{ EndGame_ColdDeath(); return; }
