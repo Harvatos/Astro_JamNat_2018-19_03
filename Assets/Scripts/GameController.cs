@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class GameController : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class GameController : MonoBehaviour
 	public GameObject playerObject;
 	public CharacterInteraction playerInteraction;
 	public ScreenshootScript twitterCam;
+
+    // added 
+    TextMeshProUGUI subtitlesDisplay;
 
 	public float temperature = 50f;
 	private float effectiveTemperature;
@@ -153,4 +157,18 @@ public class GameController : MonoBehaviour
 
 		//Show fire death message
 	}
+
+
+    public void UpdateSubtitle(string subtitle)
+    {
+        StartCoroutine(PrintSubtitle(subtitle));
+    }
+
+    IEnumerator PrintSubtitle(string subtitle)
+    {
+        subtitlesDisplay.text = subtitle;
+        yield return new WaitForSeconds(2f);
+        subtitlesDisplay.text = "";
+    }
+
 }
