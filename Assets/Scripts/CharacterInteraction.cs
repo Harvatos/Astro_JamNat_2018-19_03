@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 
 public class CharacterInteraction : MonoBehaviour
-{
+{	
 	[Range(0.1f, 2f)]public float castRadius = 0.5f;
 	[Range(0.1f, 5f)]public float castDistance = 1f;
 	public LayerMask interactionLayers;
