@@ -8,10 +8,13 @@ public class CharacterInteraction : MonoBehaviour
 	[Range(0.1f, 2f)]public float castRadius = 0.5f;
 	[Range(0.1f, 5f)]public float castDistance = 1f;
 	public LayerMask interactionLayers;
-	public Transform objectHoldLocator;
 	public TextMeshProUGUI objectNameDisplay;
 
 	public InteractableObject objectInHand;
+
+	public Transform holdPosition;
+
+	private float holdLerp = 0f;
 
 	private void Start()
     {
@@ -21,12 +24,24 @@ public class CharacterInteraction : MonoBehaviour
 
 	private void Update()
 	{
+		
 		if(Input.GetMouseButtonUp(0))
 			{ Drop();				return; }
+		else if(Input.GetMouseButtonDown(0))
+			{ EmptyHandUpdate();	return; }
 		else if(Input.GetMouseButton(0))
 			{ GrabHoldUpdate();		return; }
 
 		EmptyHandUpdate();
+	}
+
+	private void LateUpdate()
+	{
+		if (objectInHand)
+		{
+			objectInHand.transform.position = Vector3.Lerp(objectInHand.transform.position, holdPosition.position, holdLerp);
+			objectInHand.transform.rotation = Quaternion.Lerp(objectInHand.transform.rotation, holdPosition.rotation, holdLerp);
+		}
 	}
 
 	private void EmptyHandUpdate()
@@ -50,7 +65,7 @@ public class CharacterInteraction : MonoBehaviour
 		if (objectInHand)
 		{
 			objectNameDisplay.text = objectInHand.displayName;
-			objectInHand.rb.MovePosition(objectHoldLocator.position);
+			holdLerp = Mathf.Clamp01(holdLerp + Time.deltaTime * 2f);
 		}
 	}
 
@@ -60,16 +75,18 @@ public class CharacterInteraction : MonoBehaviour
 		if(objectInHand)
 		{
 			objectInHand.rb.useGravity = true;
+			objectInHand.rb.isKinematic = false;
 			objectInHand = null;
 		}
-
 	}
 
 	private void Grab(InteractableObject _object)
 	{
 		Debug.Log("Grab!");
+		holdLerp = 0f;
 		objectInHand = _object;
-		objectInHand.rb.isKinematic = false;
+		objectInHand.rb.isKinematic = true;
 		objectInHand.rb.useGravity = false;
+		holdPosition.rotation = objectInHand.transform.rotation;
 	}
 }
