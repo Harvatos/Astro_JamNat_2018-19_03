@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: 7a06aae18a44c1e43a0f37e6c7795092
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: geo_chemine_01
+    100004: geo_chemine_010
+    100006: geo_chemine_011
+    100008: geo_chemine_012
+    100010: geo_chemine_013
+    100012: geo_chemine_014
+    100014: geo_chemine_015
+    100016: geo_chemine_016
+    100018: geo_chemine_017
+    100020: geo_chemine_018
+    100022: geo_chemine_019
+    100024: geo_chemine_02
+    100026: geo_chemine_020
+    100028: geo_chemine_021
+    100030: geo_chemine_022
+    100032: geo_chemine_023
+    100034: geo_chemine_024
+    100036: geo_chemine_03
+    100038: geo_chemine_04
+    100040: geo_chemine_05
+    100042: geo_chemine_06
+    100044: geo_chemine_07
+    100046: geo_chemine_08
+    100048: geo_chemine_09
+    400000: //RootNode
+    400002: geo_chemine_01
+    400004: geo_chemine_010
+    400006: geo_chemine_011
+    400008: geo_chemine_012
+    400010: geo_chemine_013
+    400012: geo_chemine_014
+    400014: geo_chemine_015
+    400016: geo_chemine_016
+    400018: geo_chemine_017
+    400020: geo_chemine_018
+    400022: geo_chemine_019
+    400024: geo_chemine_02
+    400026: geo_chemine_020
+    400028: geo_chemine_021
+    400030: geo_chemine_022
+    400032: geo_chemine_023
+    400034: geo_chemine_024
+    400036: geo_chemine_03
+    400038: geo_chemine_04
+    400040: geo_chemine_05
+    400042: geo_chemine_06
+    400044: geo_chemine_07
+    400046: geo_chemine_08
+    400048: geo_chemine_09
+    2100000: chemine
+    2100002: black
+    2100004: greymetal
+    2100006: MArron
+    2300000: geo_chemine_01
+    2300002: geo_chemine_010
+    2300004: geo_chemine_011
+    2300006: geo_chemine_012
+    2300008: geo_chemine_013
+    2300010: geo_chemine_014
+    2300012: geo_chemine_015
+    2300014: geo_chemine_016
+    2300016: geo_chemine_017
+    2300018: geo_chemine_018
+    2300020: geo_chemine_019
+    2300022: geo_chemine_02
+    2300024: geo_chemine_020
+    2300026: geo_chemine_021
+    2300028: geo_chemine_022
+    2300030: geo_chemine_023
+    2300032: geo_chemine_024
+    2300034: geo_chemine_03
+    2300036: geo_chemine_04
+    2300038: geo_chemine_05
+    2300040: geo_chemine_06
+    2300042: geo_chemine_07
+    2300044: geo_chemine_08
+    2300046: geo_chemine_09
+    3300000: geo_chemine_01
+    3300002: geo_chemine_010
+    3300004: geo_chemine_011
+    3300006: geo_chemine_012
+    3300008: geo_chemine_013
+    3300010: geo_chemine_014
+    3300012: geo_chemine_015
+    3300014: geo_chemine_016
+    3300016: geo_chemine_017
+    3300018: geo_chemine_018
+    3300020: geo_chemine_019
+    3300022: geo_chemine_02
+    3300024: geo_chemine_020
+    3300026: geo_chemine_021
+    3300028: geo_chemine_022
+    3300030: geo_chemine_023
+    3300032: geo_chemine_024
+    3300034: geo_chemine_03
+    3300036: geo_chemine_04
+    3300038: geo_chemine_05
+    3300040: geo_chemine_06
+    3300042: geo_chemine_07
+    3300044: geo_chemine_08
+    3300046: geo_chemine_09
+    4300000: geo_chemine_01
+    4300002: geo_chemine_02
+    4300004: geo_chemine_03
+    4300006: geo_chemine_04
+    4300008: geo_chemine_05
+    4300010: geo_chemine_06
+    4300012: geo_chemine_07
+    4300014: geo_chemine_08
+    4300016: geo_chemine_09
+    4300018: geo_chemine_010
+    4300020: geo_chemine_011
+    4300022: geo_chemine_012
+    4300024: geo_chemine_013
+    4300026: geo_chemine_014
+    4300028: geo_chemine_015
+    4300030: geo_chemine_016
+    4300032: geo_chemine_017
+    4300034: geo_chemine_018
+    4300036: geo_chemine_019
+    4300038: geo_chemine_020
+    4300040: geo_chemine_021
+    4300042: geo_chemine_022
+    4300044: geo_chemine_023
+    4300046: geo_chemine_024
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MArron
+    second: {fileID: 2100000, guid: dc1e29e87a047504cadcbc2586b0ca18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black
+    second: {fileID: 2100000, guid: ccd22b197a88a984282941d801bd723c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chemine
+    second: {fileID: 2100000, guid: 403ea80a66fef9d49ad1af820f4d504b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: greymetal
+    second: {fileID: 2100000, guid: 89a250ace43ac1b40bad90e170a6639b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

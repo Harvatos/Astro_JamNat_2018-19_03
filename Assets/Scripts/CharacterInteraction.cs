@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 
 public class CharacterInteraction : MonoBehaviour
-{
+{	
 	[Range(0.1f, 2f)]public float castRadius = 0.5f;
 	[Range(0.1f, 5f)]public float castDistance = 1f;
 	public LayerMask interactionLayers;
@@ -50,7 +50,7 @@ public class CharacterInteraction : MonoBehaviour
 		{
 			InteractableObject iObj = hit.transform.GetComponent<InteractableObject>();
 			objectNameDisplay.text = iObj.displayName;
-			if (Input.GetMouseButtonDown(0))
+			if (Input.GetMouseButtonDown(0) && !iObj.isBurning)
 			{
 				Grab(iObj);
 			}
