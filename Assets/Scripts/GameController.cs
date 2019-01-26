@@ -9,6 +9,7 @@ public class GameController : MonoBehaviour
 
 	public GameObject playerObject;
 	public CharacterInteraction playerInteraction;
+	public ScreenshootScript twitterCam;
 
 	public float temperature = 50f;
 	private float effectiveTemperature;
@@ -33,7 +34,7 @@ public class GameController : MonoBehaviour
     {
 		instance = this;
 		effectiveTemperature = temperature;
-		gameTimer = gameDuration * 60f;
+		gameTimer = gameDuration * 10f;
 
 		fadeScreen.alpha = 1f;
     }
@@ -127,8 +128,8 @@ public class GameController : MonoBehaviour
 
 		fadeScreenImage.color = winFadeColor;
 
+		twitterCam.TakeTweet("TestName");
 		playerObject.SetActive(false);
-		//Call screenshot bot
 	}
 	public void EndGame_ColdDeath()
 	{
