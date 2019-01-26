@@ -9,5 +9,5 @@
   <SoundbankPath>Audio/GeneratedSoundBanks</SoundbankPath>
   <WwiseInstallationPathMac />
   <WwiseInstallationPathWindows />
-  <WwiseProjectPath>../../Astro_JamNat_18-19_03/Assets/WwiseSoundbank/SYF_SFX.wproj</WwiseProjectPath>
+  <WwiseProjectPath>WwiseSoundbank/SYF_SFX.wproj</WwiseProjectPath>
 </WwiseSettings>

@@ -12,14 +12,1249 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7602491d6e64414b99a504f3d4a8948, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-  ExpandedItems: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 2ae7e62f9bed01479dddd8c9d0f2ca0a
+    m_lastTime: -8586563570246031955
+    List: []
+  - PhysicalPath: Virtual Acoustics\Factory Reflect Acoustic Textures.wwu
+    ParentPhysicalPath: 
+    guid: 6b663d46a83ca54f8b4a5fef12b883f6
+    m_lastTime: -8586563570245941381
+    List:
+    - name: Acoustic_Banner
+      guid: f2532d2fccda8e408b8898b1b52a26d6
+      id: 4168643977
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Acoustic_Banner
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Acoustic_Banner
+    - name: Anechoic
+      guid: 32c20a8be202de4ebeacfdd1a900e3ed
+      id: 1873957695
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Anechoic
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Anechoic
+    - name: Brick
+      guid: a9a586b004f2534ca838bdb18b18f6d6
+      id: 504532776
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Brick
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Brick
+    - name: Carpet
+      guid: 8975223456dc604296c4b9f4b669092b
+      id: 2412606308
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Carpet
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Carpet
+    - name: Concrete
+      guid: 001cf85c9628e04aaf7c3080bdaba682
+      id: 841620460
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Concrete
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Concrete
+    - name: Cork_Tiles
+      guid: 19c9d2305f92434189063dbb3c4ae5e2
+      id: 3195498748
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Cork_Tiles
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Cork_Tiles
+    - name: Curtains
+      guid: 339ee6f8975c6849b508a1535f2d66e8
+      id: 2928161104
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Curtains
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Curtains
+    - name: Drywall
+      guid: f4e3a4680b4c8746a8b8a84db93dbc8f
+      id: 3670307564
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Drywall
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Drywall
+    - name: Fabric
+      guid: 32d581836edbed4ea7a3bc7b0a0b8ba8
+      id: 1970351858
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Fabric
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Fabric
+    - name: Mountain
+      guid: 313793c51a00b44a98dd9b033a8c8eab
+      id: 513139656
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Mountain
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Mountain
+    - name: Tile
+      guid: c4da82a82a13b747ba9db9907ba29cc0
+      id: 2637588553
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Tile
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Tile
+    - name: Wood
+      guid: 96bcff1fe76f9e48ba6c7c14a71391ae
+      id: 2058049674
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Wood
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Wood
+    - name: Wood_Bright
+      guid: e5d1857ba2c1634e9a13cec54b641adc
+      id: 4262522749
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Wood_Bright
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Wood_Bright
+    - name: Wood_Deep
+      guid: 8e474652dac50c4ea0dec98d1479529a
+      id: 1755085759
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Wood_Deep
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Wood_Deep
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 23a94bb2abc3e14f95e4fce0d55ce75e
+    m_lastTime: -8586563570247696030
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: d1ebde507607d247824d7c46251f0263
+    m_lastTime: -8586563570246804018
+    List:
+    - name: SYF_SoundBank
+      guid: b1adb21fdb9529469c2aa0bb25f1a7d9
+      id: 3049060043
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SYF_SoundBank
+        ObjectType: 7
+      Path: Default Work Unit\SYF_SoundBank
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 1459fa5ae7252c4898b391eab329c4c8
+    m_lastTime: -8586563570256360405
+    List:
+    - name: AMB_Inns_Rainy
+      guid: c14f7121d7dada4d8db24a27fa4dd895
+      id: 3192970084
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: AMB
+        ObjectType: 4
+      - ElementName: Inns
+        ObjectType: 4
+      - ElementName: AMB_Inns_Rainy
+        ObjectType: 3
+      Path: Default Work Unit\AMB\Inns\AMB_Inns_Rainy
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: AMB_Stop
+      guid: c83ee8af6c7efb448f51b1b8874f8965
+      id: 729984210
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: AMB
+        ObjectType: 4
+      - ElementName: Gen
+        ObjectType: 4
+      - ElementName: AMB_Stop
+        ObjectType: 3
+      Path: Default Work Unit\AMB\Gen\AMB_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: MUS_Inns_01
+      guid: c63a14761d5efd419543c63d90730953
+      id: 3302775237
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MUS
+        ObjectType: 4
+      - ElementName: Inns
+        ObjectType: 4
+      - ElementName: MUS_Inns_01
+        ObjectType: 3
+      Path: Default Work Unit\MUS\Inns\MUS_Inns_01
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: MUS_Menu_01
+      guid: f1b61813b560e844acedde2db5af8363
+      id: 4234731666
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MUS
+        ObjectType: 4
+      - ElementName: Menu
+        ObjectType: 4
+      - ElementName: MUS_Menu_01
+        ObjectType: 3
+      Path: Default Work Unit\MUS\Menu\MUS_Menu_01
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: MUS_Stop
+      guid: 2e35763f7212f443a3de5fc5af191e85
+      id: 410419961
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MUS
+        ObjectType: 4
+      - ElementName: Gen
+        ObjectType: 4
+      - ElementName: MUS_Stop
+        ObjectType: 3
+      Path: Default Work Unit\MUS\Gen\MUS_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_Ch_Grab
+      guid: 6c7f73cafff823468600c697bb82bbc9
+      id: 3378934977
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: Gen
+        ObjectType: 4
+      - ElementName: SFX_Ch_Grab
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Character\Gen\SFX_Ch_Grab
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_Ch_Throw
+      guid: 3d49c06c3ba0f942871edf34e904c714
+      id: 3843426729
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: Gen
+        ObjectType: 4
+      - ElementName: SFX_Ch_Throw
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Character\Gen\SFX_Ch_Throw
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_Env_Crate_Hit
+      guid: 38e9bcd543ac5b4e83e1a442e695e9bf
+      id: 4115745420
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Env
+        ObjectType: 4
+      - ElementName: Destructible
+        ObjectType: 4
+      - ElementName: SFX_Env_Crate_Hit
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Env\Destructible\SFX_Env_Crate_Hit
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_Env_Inns_Lightning_Strike
+      guid: 337ae49daa225a4cb81cff927a7c01af
+      id: 3114159375
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Env
+        ObjectType: 4
+      - ElementName: Inns
+        ObjectType: 4
+      - ElementName: SFX_Env_Inns_Lightning_Strike
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Env\Inns\SFX_Env_Inns_Lightning_Strike
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_Env_Inns_Tentacles_Out
+      guid: 7e596be4c0d0ef4a95a13f8b240a925d
+      id: 2211241796
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Env
+        ObjectType: 4
+      - ElementName: Inns
+        ObjectType: 4
+      - ElementName: SFX_Env_Inns_Tentacles_Out
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Env\Inns\SFX_Env_Inns_Tentacles_Out
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_Env_Inns_Tentacles_Swing
+      guid: 116d26d39417b742a6ebc4d93044828a
+      id: 3433209994
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Env
+        ObjectType: 4
+      - ElementName: Inns
+        ObjectType: 4
+      - ElementName: SFX_Env_Inns_Tentacles_Swing
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Env\Inns\SFX_Env_Inns_Tentacles_Swing
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_G_HandCannon_Charge
+      guid: 1cf2595586274c45ab2950d6c34d943e
+      id: 3490399234
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Items
+        ObjectType: 4
+      - ElementName: G_HandCannon
+        ObjectType: 4
+      - ElementName: SFX_G_HandCannon_Charge
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Items\G_HandCannon\SFX_G_HandCannon_Charge
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_G_HandCannon_Hit
+      guid: eacde01a03d7ce49acbac540599c4ca0
+      id: 4141903357
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Items
+        ObjectType: 4
+      - ElementName: G_HandCannon
+        ObjectType: 4
+      - ElementName: SFX_G_HandCannon_Hit
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Items\G_HandCannon\SFX_G_HandCannon_Hit
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_G_HandCannon_Interrupt
+      guid: 785f6834e5e9224d897374796d11c880
+      id: 1218370915
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Items
+        ObjectType: 4
+      - ElementName: G_HandCannon
+        ObjectType: 4
+      - ElementName: SFX_G_HandCannon_Interrupt
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Items\G_HandCannon\SFX_G_HandCannon_Interrupt
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_G_HandCannon_Pickup
+      guid: 0d4848ec1395d843bd67a8e2ea990df6
+      id: 2720448150
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Items
+        ObjectType: 4
+      - ElementName: G_HandCannon
+        ObjectType: 4
+      - ElementName: SFX_G_HandCannon_Pickup
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Items\G_HandCannon\SFX_G_HandCannon_Pickup
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_G_HandCannon_Shot
+      guid: 6eab8cf05a227b40b8d5077890d091f8
+      id: 102975514
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Items
+        ObjectType: 4
+      - ElementName: G_HandCannon
+        ObjectType: 4
+      - ElementName: SFX_G_HandCannon_Shot
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Items\G_HandCannon\SFX_G_HandCannon_Shot
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_G_Thompson_Hit
+      guid: a8375c59c2af1741bb42e5034ee1ae29
+      id: 2680615469
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Items
+        ObjectType: 4
+      - ElementName: G_Thompson
+        ObjectType: 4
+      - ElementName: SFX_G_Thompson_Hit
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Items\G_Thompson\SFX_G_Thompson_Hit
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_G_Thompson_NoAmmo
+      guid: 46ba73e533b3a848aadb4b696bad3c71
+      id: 447323685
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Items
+        ObjectType: 4
+      - ElementName: G_Thompson
+        ObjectType: 4
+      - ElementName: SFX_G_Thompson_NoAmmo
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Items\G_Thompson\SFX_G_Thompson_NoAmmo
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_G_Thompson_Pickup
+      guid: 2572ee20ca52324cba78bdfda4137600
+      id: 724519654
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Items
+        ObjectType: 4
+      - ElementName: G_Thompson
+        ObjectType: 4
+      - ElementName: SFX_G_Thompson_Pickup
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Items\G_Thompson\SFX_G_Thompson_Pickup
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_G_Thompson_Shot
+      guid: 43a27a542d4a8347a6afc4d4d9b48ccd
+      id: 2524719242
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Items
+        ObjectType: 4
+      - ElementName: G_Thompson
+        ObjectType: 4
+      - ElementName: SFX_G_Thompson_Shot
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Items\G_Thompson\SFX_G_Thompson_Shot
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_Inns_WaterDeath
+      guid: 8a8bc500569638458a9e03b870951e2f
+      id: 776989497
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Gameplay
+        ObjectType: 4
+      - ElementName: Inns
+        ObjectType: 4
+      - ElementName: SFX_Inns_WaterDeath
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Gameplay\Inns\SFX_Inns_WaterDeath
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_Item_Spawn
+      guid: 51198d13756a0a4e8971f93872a920e1
+      id: 3210369608
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Items
+        ObjectType: 4
+      - ElementName: Gen
+        ObjectType: 4
+      - ElementName: SFX_Item_Spawn
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Items\Gen\SFX_Item_Spawn
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_M_Truncheon_Hit
+      guid: f694196104df424bb1cecca3116c4b46
+      id: 1948718389
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Items
+        ObjectType: 4
+      - ElementName: M_Truncheon
+        ObjectType: 4
+      - ElementName: SFX_M_Truncheon_Hit
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Items\M_Truncheon\SFX_M_Truncheon_Hit
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_M_Truncheon_Pickup
+      guid: 9985898bcec29a4783c538dc6bc6ae6e
+      id: 3055371070
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Items
+        ObjectType: 4
+      - ElementName: M_Truncheon
+        ObjectType: 4
+      - ElementName: SFX_M_Truncheon_Pickup
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Items\M_Truncheon\SFX_M_Truncheon_Pickup
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_M_Truncheon_Swing
+      guid: 100c1a5c73870349a4ef9cde6017a1dd
+      id: 1169219400
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Items
+        ObjectType: 4
+      - ElementName: M_Truncheon
+        ObjectType: 4
+      - ElementName: SFX_M_Truncheon_Swing
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Items\M_Truncheon\SFX_M_Truncheon_Swing
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_M_Unarmed_Hit
+      guid: 3b493a047de16842bee766397b2015d3
+      id: 3484501631
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Items
+        ObjectType: 4
+      - ElementName: M_Unarmed
+        ObjectType: 4
+      - ElementName: SFX_M_Unarmed_Hit
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Items\M_Unarmed\SFX_M_Unarmed_Hit
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_M_Unarmed_Swing
+      guid: cf506e147b159e4db521549eb663e239
+      id: 2242624170
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Items
+        ObjectType: 4
+      - ElementName: M_Unarmed
+        ObjectType: 4
+      - ElementName: SFX_M_Unarmed_Swing
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Items\M_Unarmed\SFX_M_Unarmed_Swing
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_M2h_GreatAxe_Charge
+      guid: 54100f7d1f6b6f4ba942dc40ce87a6d2
+      id: 1158757741
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Items
+        ObjectType: 4
+      - ElementName: M2h_GreatAxe
+        ObjectType: 4
+      - ElementName: SFX_M2h_GreatAxe_Charge
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Items\M2h_GreatAxe\SFX_M2h_GreatAxe_Charge
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_M2h_GreatAxe_Hit
+      guid: 6f2239c3e25ce34fbb9a573cb13dffef
+      id: 4252252360
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Items
+        ObjectType: 4
+      - ElementName: M2h_GreatAxe
+        ObjectType: 4
+      - ElementName: SFX_M2h_GreatAxe_Hit
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Items\M2h_GreatAxe\SFX_M2h_GreatAxe_Hit
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_M2h_GreatAxe_Interrupt
+      guid: 7fed68fbea8d4c499ff2c31718747f91
+      id: 3126567862
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Items
+        ObjectType: 4
+      - ElementName: M2h_GreatAxe
+        ObjectType: 4
+      - ElementName: SFX_M2h_GreatAxe_Interrupt
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Items\M2h_GreatAxe\SFX_M2h_GreatAxe_Interrupt
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_M2h_GreatAxe_Pickup
+      guid: 362cdead4ca8bc4ca0c854764e21ed6f
+      id: 69488237
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Items
+        ObjectType: 4
+      - ElementName: M2h_GreatAxe
+        ObjectType: 4
+      - ElementName: SFX_M2h_GreatAxe_Pickup
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Items\M2h_GreatAxe\SFX_M2h_GreatAxe_Pickup
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_M2h_GreatAxe_Swing
+      guid: d00f25a04d5f5f48834a0ddcf0c4f66a
+      id: 2879687861
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Items
+        ObjectType: 4
+      - ElementName: M2h_GreatAxe
+        ObjectType: 4
+      - ElementName: SFX_M2h_GreatAxe_Swing
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Items\M2h_GreatAxe\SFX_M2h_GreatAxe_Swing
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_Player_OutOfBound_Death
+      guid: c8bfb2cd848afd4fb0cf86c461cd1897
+      id: 1075210903
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Gameplay
+        ObjectType: 4
+      - ElementName: Gen
+        ObjectType: 4
+      - ElementName: SFX_Player_OutOfBound_Death
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Gameplay\Gen\SFX_Player_OutOfBound_Death
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_Player_Spawn
+      guid: 04b6e2e21c037240bb3d56fdebe59898
+      id: 2618161010
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Gameplay
+        ObjectType: 4
+      - ElementName: Gen
+        ObjectType: 4
+      - ElementName: SFX_Player_Spawn
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Gameplay\Gen\SFX_Player_Spawn
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_Sp_EvilIdol_Gaze_Start
+      guid: 69bb75752a550645b42099e99839b7dc
+      id: 1747586952
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Items
+        ObjectType: 4
+      - ElementName: Sp_EvilIdol
+        ObjectType: 4
+      - ElementName: SFX_Sp_EvilIdol_Gaze_Start
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Items\Sp_EvilIdol\SFX_Sp_EvilIdol_Gaze_Start
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_Sp_EvilIdol_Gaze_Stop
+      guid: 3830cc1bcd849e4ba53a21319a9cc938
+      id: 826715604
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Items
+        ObjectType: 4
+      - ElementName: Sp_EvilIdol
+        ObjectType: 4
+      - ElementName: SFX_Sp_EvilIdol_Gaze_Stop
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Items\Sp_EvilIdol\SFX_Sp_EvilIdol_Gaze_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_Sp_EvilIdol_Hit
+      guid: 3987ad0139662342abccbf41c4dd70c4
+      id: 2205787837
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Items
+        ObjectType: 4
+      - ElementName: Sp_EvilIdol
+        ObjectType: 4
+      - ElementName: SFX_Sp_EvilIdol_Hit
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Items\Sp_EvilIdol\SFX_Sp_EvilIdol_Hit
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_Sp_EvilIdol_Pickup
+      guid: 91db0ed620d63345a1c4e47ce68e2bfd
+      id: 65862998
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Items
+        ObjectType: 4
+      - ElementName: Sp_EvilIdol
+        ObjectType: 4
+      - ElementName: SFX_Sp_EvilIdol_Pickup
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Items\Sp_EvilIdol\SFX_Sp_EvilIdol_Pickup
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_Sp_RuneExplosive_Explosion
+      guid: a9430618c7011842ba428d20959ebd2c
+      id: 2637614528
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Items
+        ObjectType: 4
+      - ElementName: Sp_RuneExplosive
+        ObjectType: 4
+      - ElementName: SFX_Sp_RuneExplosive_Explosion
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Items\Sp_RuneExplosive\SFX_Sp_RuneExplosive_Explosion
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_Sp_RuneExplosive_Pickup
+      guid: b1a123182ec2174f80f2585723b6ab55
+      id: 2253397031
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Items
+        ObjectType: 4
+      - ElementName: Sp_RuneExplosive
+        ObjectType: 4
+      - ElementName: SFX_Sp_RuneExplosive_Pickup
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Items\Sp_RuneExplosive\SFX_Sp_RuneExplosive_Pickup
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_Sp_RuneExplosive_Place
+      guid: 513e4eff020d5342974fb37cb5e9424d
+      id: 2761200308
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Items
+        ObjectType: 4
+      - ElementName: Sp_RuneExplosive
+        ObjectType: 4
+      - ElementName: SFX_Sp_RuneExplosive_Place
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Items\Sp_RuneExplosive\SFX_Sp_RuneExplosive_Place
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_Sp_RuneExplosive_Trigger
+      guid: a8cc4a4a597cb54e9d70de8d7914de82
+      id: 1780114417
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Items
+        ObjectType: 4
+      - ElementName: Sp_RuneExplosive
+        ObjectType: 4
+      - ElementName: SFX_Sp_RuneExplosive_Trigger
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Items\Sp_RuneExplosive\SFX_Sp_RuneExplosive_Trigger
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: UI_Counter
+      guid: 0aae4e0bbf44e34a8a7aba9aec78a83c
+      id: 405402586
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: UI_Counter
+        ObjectType: 3
+      Path: Default Work Unit\UI\UI_Counter
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: UI_Menu_Drag_Start
+      guid: c8a6750e53c8104dab0a60f9b83da3b3
+      id: 2990842145
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: UI_Menu_Drag_Start
+        ObjectType: 3
+      Path: Default Work Unit\UI\UI_Menu_Drag_Start
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: UI_Menu_Drag_Stop
+      guid: f89c2fab2f3b7c4194f38a658de9ce45
+      id: 355747163
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: UI_Menu_Drag_Stop
+        ObjectType: 3
+      Path: Default Work Unit\UI\UI_Menu_Drag_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: UI_Menu_Hover
+      guid: bdd0711ace8df241b10f223736bcbdd8
+      id: 2163476404
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: UI_Menu_Hover
+        ObjectType: 3
+      Path: Default Work Unit\UI\UI_Menu_Hover
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: UI_Menu_Sel_Else
+      guid: add75595dccb4a41babdb0d0844223af
+      id: 3412890546
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: UI_Menu_Sel_Else
+        ObjectType: 3
+      Path: Default Work Unit\UI\UI_Menu_Sel_Else
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: UI_Menu_Sel_Play
+      guid: 476364831a9c334bbdd7f0ef8f4527cd
+      id: 3294166295
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: UI_Menu_Sel_Play
+        ObjectType: 3
+      Path: Default Work Unit\UI\UI_Menu_Sel_Play
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: UI_Menu_Sel_Quit
+      guid: efd9eaf156f5d94fa57c047a4505bb1d
+      id: 1402788864
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: UI_Menu_Sel_Quit
+        ObjectType: 3
+      Path: Default Work Unit\UI\UI_Menu_Sel_Quit
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: UI_Menu_Sel_Settings
+      guid: c807bc5e50100e47b9ae3547ba95ca7e
+      id: 3312193982
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: UI_Menu_Sel_Settings
+        ObjectType: 3
+      Path: Default Work Unit\UI\UI_Menu_Sel_Settings
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 78c80081cefaab4daf4488c0d33fa841
+    m_lastTime: -8586563570256219684
+    List:
+    - name: AMB_Vol
+      guid: 2a8b64247cc99e42a228add80e34141c
+      id: 3752125433
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: AMB_Vol
+        ObjectType: 13
+      Path: Default Work Unit\AMB_Vol
+    - name: MUS_Vol
+      guid: 73d49da2b150824c9b480f797504e546
+      id: 1307889788
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MUS_Vol
+        ObjectType: 13
+      Path: Default Work Unit\MUS_Vol
+    - name: SFX_Vol
+      guid: 647057ac6ede594e93ab65b11a825468
+      id: 42448320
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX_Vol
+        ObjectType: 13
+      Path: Default Work Unit\SFX_Vol
+    - name: UI_Vol
+      guid: dc75c98835f3d94d8fda28be63172767
+      id: 3680188857
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI_Vol
+        ObjectType: 13
+      Path: Default Work Unit\UI_Vol
+    - name: VO_Vol
+      guid: 7aa00532be0dad4ba466d8e306b31d5e
+      id: 1093937226
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: VO_Vol
+        ObjectType: 13
+      Path: Default Work Unit\VO_Vol
+  - PhysicalPath: Game Parameters\Factory Motion.wwu
+    ParentPhysicalPath: 
+    guid: 225213d7dbd1d042adc0930743567776
+    m_lastTime: -8586563570256119431
+    List:
+    - name: Playback_Rate
+      guid: e37e38283ac11643b9c3db5c521624af
+      id: 1524500807
+      PathAndIcons:
+      - ElementName: Factory Motion
+        ObjectType: 12
+      - ElementName: Playback_Rate
+        ObjectType: 13
+      Path: Factory Motion\Playback_Rate
+    - name: RPM
+      guid: 05aa129177f5fd449f4e4424158129e6
+      id: 796049864
+      PathAndIcons:
+      - ElementName: Factory Motion
+        ObjectType: 12
+      - ElementName: RPM
+        ObjectType: 13
+      Path: Factory Motion\RPM
+  - PhysicalPath: Game Parameters\Factory SoundSeed Air Game Syncs.wwu
+    ParentPhysicalPath: 
+    guid: 5577163b42fb8b4598bf96f557afb3b9
+    m_lastTime: -8586563570256029516
+    List:
+    - name: SS_Air_Fear
+      guid: 59062ef746431c4ea1b1dab46a05101e
+      id: 1351367891
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Fear
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Fear
+    - name: SS_Air_Freefall
+      guid: 37fe2d2f9e4f944d83d853cca39781ad
+      id: 3002758120
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Freefall
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Freefall
+    - name: SS_Air_Fury
+      guid: dc79aea23acaba4696529986c322a87b
+      id: 1029930033
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Fury
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Fury
+    - name: SS_Air_Month
+      guid: 45b4e209a3c47f44b3ca818a1d925ef7
+      id: 2648548617
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Month
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Month
+    - name: SS_Air_Presence
+      guid: 1a81b7e32f7b0f49b44f5fe51b468041
+      id: 3847924954
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Presence
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Presence
+    - name: SS_Air_RPM
+      guid: ab9048a3d5b92645a64d5290c43ef2dc
+      id: 822163944
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_RPM
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_RPM
+    - name: SS_Air_Size
+      guid: efeb291393a12e47a38c64668b494879
+      id: 3074696722
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Size
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Size
+    - name: SS_Air_Storm
+      guid: db8c3fe9d1063747acaf7cd44bbed783
+      id: 3715662592
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Storm
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Storm
+    - name: SS_Air_TimeOfDay
+      guid: 2ca76f537e8c8b4cae03ef34fdadc314
+      id: 3203397129
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_TimeOfDay
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_TimeOfDay
+    - name: SS_Air_Turbulence
+      guid: 197ba8edaa73a0409f192073606db710
+      id: 4160247818
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Turbulence
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Turbulence
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 1bf66b7ab181064291bd09f518b1d4cc
+    m_lastTime: -8586563570246482784
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 7533b7d91bd73443a18beee93dfa48f0
+    m_lastTime: -8586563570246342782
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 7756397b785f6546b65f8fd80d722a75
+    m_lastTime: -8586563570246172333
+    List: []
+  ExpandedItems:
+  - /SYF_SFX
+  - /SYF_SFX/Events
+  - /SYF_SFX/Events/Default Work Unit
+  - /SYF_SFX/Events/Default Work Unit/AMB
+  - /SYF_SFX/Events/Default Work Unit/MUS
+  - /SYF_SFX/Events/Default Work Unit/SFX
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
