@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using static TwitterAPI;
 
 public class ScreenshootScript : MonoBehaviour
@@ -36,6 +37,7 @@ public class ScreenshootScript : MonoBehaviour
         gameObject.SetActive(true);
 
         StartCoroutine(TakeScreenshot(name));
+		
     }
 
     IEnumerator TakeScreenshot(string name)
@@ -50,8 +52,9 @@ public class ScreenshootScript : MonoBehaviour
         yield return new WaitForSeconds(2f);
 		if(enableTwitterBot)
 		{
-			var response = twitter.PublishToTwitter("Bienvenue chez " + name, dataPath + "/chez_"+ name +".png");
+			var response = twitter.PublishToTwitter("Bienvenue chez " + name + " #GGJ19 #AstrolabeInteractive", dataPath + "/chez_"+ name +".png");
 			Debug.Log(response);
 		}
+		SceneManager.LoadScene(0);
     }
 }
