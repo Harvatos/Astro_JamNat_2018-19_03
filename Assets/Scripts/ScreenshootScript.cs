@@ -43,14 +43,14 @@ public class ScreenshootScript : MonoBehaviour
         yield return new WaitForSeconds(2f);
 		if(enableTwitterBot)
 		{
-			 ScreenCapture.CaptureScreenshot(dataPath + "/photo2.png");
+			 ScreenCapture.CaptureScreenshot(dataPath + "/chez_" + name + ".png");
 		}
        
 
         yield return new WaitForSeconds(2f);
 		if(enableTwitterBot)
 		{
-			var response = twitter.PublishToTwitter("This is the home of " + name, dataPath + "/photo2.png");
+			var response = twitter.PublishToTwitter("Bienvenue chez " + name, dataPath + "/chez_"+ name +".png");
 			Debug.Log(response);
 		}
     }
