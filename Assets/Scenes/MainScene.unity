@@ -159,7 +159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Peinture
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -239,7 +239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Ventilateur
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -319,7 +319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Devoirs
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -399,7 +399,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Haut-Parleur
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -479,7 +479,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Photo de ma Blonde
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -559,7 +559,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Object
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -639,7 +639,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: "Introduction \xE0 la Philosophie"
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -721,7 +721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: "T\xE9l\xE9vision"
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -1042,7 +1042,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: "Bo\xEEte de mouchoirs"
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -1075,6 +1075,97 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5179519, y: 0.18509829, z: 0.3570323}
   m_Center: {x: -0.0027354658, y: -0.05048126, z: 0.014112711}
+--- !u!1 &252225173
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 252225174}
+  - component: {fileID: 252225177}
+  - component: {fileID: 252225176}
+  - component: {fileID: 252225175}
+  m_Layer: 0
+  m_Name: Cube (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &252225174
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252225173}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.889, y: 0.76, z: -3.91}
+  m_LocalScale: {x: 0.2, y: 1.54, z: 1}
+  m_Children: []
+  m_Father: {fileID: 878187734}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &252225175
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252225173}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &252225176
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252225173}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &252225177
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252225173}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &378120137
 GameObject:
   m_ObjectHideFlags: 0
@@ -1122,7 +1213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: CDs
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -1367,7 +1458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Livres
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -1447,7 +1538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Mr Giggly
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -1527,7 +1618,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Ballon
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -1772,7 +1863,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: "Mes \xE9conomies"
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -1917,7 +2008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Grille-Pain
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -1997,7 +2088,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Haltere
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -2213,7 +2304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Micro-onde
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -2319,6 +2410,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0a68ff71c128014cb86c7b9c5d5b63b, type: 3}
+--- !u!4 &878187734 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6852154395334360171, guid: ee013a6a489c7684ea8e2deffb687792,
+    type: 3}
+  m_PrefabInstance: {fileID: 1677635933}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &898498421
 GameObject:
   m_ObjectHideFlags: 0
@@ -2366,7 +2463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Album des Finissants
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -2689,7 +2786,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Guitare
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -2769,7 +2866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: XCube 2
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -2849,7 +2946,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: "Bo\xEEte de pizza"
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -2929,7 +3026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Chaussures
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -3009,7 +3106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Oreiller
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -3143,7 +3240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Mega Monster Mash I - IV
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -3223,7 +3320,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: "Lampe \xE0 lave"
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -3468,7 +3565,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Factures
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -3548,7 +3645,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Poubelle
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -3628,7 +3725,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Chaise
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -3983,7 +4080,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Babillard
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -4063,7 +4160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Plante
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -4173,6 +4270,22 @@ PrefabInstance:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1104376539, guid: ff1c0d00577342b4eb9fc98d37436314, type: 3}
+      propertyPath: fireFx
+      value: 
+      objectReference: {fileID: 1579968280}
+    - target: {fileID: 1104376539, guid: ff1c0d00577342b4eb9fc98d37436314, type: 3}
+      propertyPath: temperatureSmoothTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104376539, guid: ff1c0d00577342b4eb9fc98d37436314, type: 3}
+      propertyPath: temperatureLossSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104376539, guid: ff1c0d00577342b4eb9fc98d37436314, type: 3}
+      propertyPath: gameDuration
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7910989992427194101, guid: ff1c0d00577342b4eb9fc98d37436314,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4262,7 +4375,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Bong
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -4342,7 +4455,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Grand-maman
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -4375,6 +4488,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.3, y: 0.33855858, z: 0.3}
   m_Center: {x: 0, y: -0.019279286, z: 0}
+--- !u!114 &1579968280 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1917251676, guid: d0a68ff71c128014cb86c7b9c5d5b63b,
+    type: 3}
+  m_PrefabInstance: {fileID: 847898935}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eebde5d06ed9d64b9697c85ee3a9bb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1665001407
 GameObject:
   m_ObjectHideFlags: 0
@@ -4422,7 +4547,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Vaisselle Sale
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -4522,8 +4647,109 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6852154394178232914, guid: ee013a6a489c7684ea8e2deffb687792,
+        type: 3}
+      propertyPath: m_TagString
+      value: FirePit
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852154394178232912, guid: ee013a6a489c7684ea8e2deffb687792,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee013a6a489c7684ea8e2deffb687792, type: 3}
+--- !u!1 &1687573735
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1687573736}
+  - component: {fileID: 1687573739}
+  - component: {fileID: 1687573738}
+  - component: {fileID: 1687573737}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1687573736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687573735}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.314, y: -0.032, z: -3.91}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 878187734}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1687573737
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687573735}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1687573738
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687573735}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1687573739
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687573735}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1697976764
 GameObject:
   m_ObjectHideFlags: 0
@@ -4736,7 +4962,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Vieux Pull
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -4982,7 +5208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Ordinateur
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -29123,7 +29349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Ustensile
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -29203,7 +29429,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Casserole
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -29284,7 +29510,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Tablette
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -29365,7 +29591,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: "T\xE9l\xE9phone"
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -29445,7 +29671,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Bouteilles
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -29690,7 +29916,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Tourne-Disque
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -29840,7 +30066,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Lampe
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -29920,7 +30146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Avis d'expulsion
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -30077,7 +30303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: "Troph\xE9e"
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -30157,7 +30383,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Assiettes
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 
@@ -30190,6 +30416,97 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.32068753, y: 0.041380405, z: 0.3262701}
   m_Center: {x: 0.006079793, y: 0.035372257, z: 0.048310757}
+--- !u!1 &2090428055
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2090428056}
+  - component: {fileID: 2090428059}
+  - component: {fileID: 2090428058}
+  - component: {fileID: 2090428057}
+  m_Layer: 0
+  m_Name: Cube (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2090428056
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090428055}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.282, y: 0.76, z: -3.91}
+  m_LocalScale: {x: 0.2, y: 1.54, z: 1}
+  m_Children: []
+  m_Father: {fileID: 878187734}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2090428057
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090428055}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &2090428058
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090428055}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &2090428059
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090428055}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &2130949281
 GameObject:
   m_ObjectHideFlags: 0
@@ -30237,7 +30554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: Tasse
-  meshRenderer: {fileID: 0}
+  meshRenderer: []
   burningMaterial: {fileID: 2100000, guid: 3b9b097a997a80942b81e2c58426b2f8, type: 2}
   audioEvent: VO_
   subtitle: 

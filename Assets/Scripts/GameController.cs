@@ -22,6 +22,8 @@ public class GameController : MonoBehaviour
 
 	public float burnHeatBoost = 30f;
 
+	public FireStrength fireFx;
+
 	public CanvasGroup iceOverlay;
 	public CanvasGroup fireOverlay;
 
@@ -81,7 +83,7 @@ public class GameController : MonoBehaviour
 
 		iceOverlay.alpha = Mathf.InverseLerp(40f, 0f, effectiveTemperature);
 		fireOverlay.alpha = Mathf.InverseLerp(70f, 100f, effectiveTemperature);
-
+		fireFx.fireStrength = Mathf.InverseLerp(0f, 100f, effectiveTemperature) * 2f;
 		//AkSoundEngine.SetRTPCValue("Temperature", effectiveTemperature * 0.01f);
 
 		if (effectiveTemperature <= 0f)
@@ -129,6 +131,9 @@ public class GameController : MonoBehaviour
 		Debug.Log("Quit game triggered");
 		gameState = GAMESTATE.Quit;
 
+		iceOverlay.alpha = 0f;
+		fireOverlay.alpha = 0f;
+
 		playerInteraction.objectNameDisplay.text = "";
 		fadeScreenImage.color = quitFadeColor;
 		//Load main menu
@@ -140,6 +145,9 @@ public class GameController : MonoBehaviour
 
 		playerInteraction.objectNameDisplay.text = "";
 		fadeScreenImage.color = winFadeColor;
+
+		iceOverlay.alpha = 0f;
+		fireOverlay.alpha = 0f;
 
 		twitterCam.TakeTweet("TestName");
 		playerObject.SetActive(false);

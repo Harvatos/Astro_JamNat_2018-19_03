@@ -51,7 +51,11 @@ public class InteractableObject : MonoBehaviour
             //  meshRenderer.material = burningMaterial;
             foreach (MeshRenderer mr in meshRenderer)
             {
-                mr.material = new Material(burningMaterial);
+				//foreach (Material modMat in mr.materials)
+				//{
+				//	modMat = burningMaterial;
+				//}
+                mr.material = burningMaterial;
             }
             Destroy(gameObject, 1f / burnSpeed);
 		}

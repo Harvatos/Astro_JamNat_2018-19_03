@@ -24,6 +24,6 @@ public class FireStrength : MonoBehaviour
 
     void changeLight()
     {
-        fireLight.intensity = 250 * fireStrength;
+        fireLight.intensity = Mathf.Lerp(10f, 500f, fireStrength * 0.5f);
     }
 }
