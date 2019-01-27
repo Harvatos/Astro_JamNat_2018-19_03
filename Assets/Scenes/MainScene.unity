@@ -4473,6 +4473,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Controller
       objectReference: {fileID: 0}
+    - target: {fileID: 1514753565, guid: ff1c0d00577342b4eb9fc98d37436314, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7910989991415343797, guid: ff1c0d00577342b4eb9fc98d37436314,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4552,12 +4556,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1104376539, guid: ff1c0d00577342b4eb9fc98d37436314, type: 3}
       propertyPath: gameDuration
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1104376539, guid: ff1c0d00577342b4eb9fc98d37436314, type: 3}
       propertyPath: timerDisplay
       value: 
       objectReference: {fileID: 1188507101}
+    - target: {fileID: 1104376539, guid: ff1c0d00577342b4eb9fc98d37436314, type: 3}
+      propertyPath: burnHeatBoost
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 7910989992427194101, guid: ff1c0d00577342b4eb9fc98d37436314,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4635,10 +4643,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1514753566, guid: ff1c0d00577342b4eb9fc98d37436314, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1514753565, guid: ff1c0d00577342b4eb9fc98d37436314, type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7910989992427297493, guid: ff1c0d00577342b4eb9fc98d37436314,

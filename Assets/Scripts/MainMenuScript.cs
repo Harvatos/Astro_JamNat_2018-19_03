@@ -20,6 +20,8 @@ public class MainMenuScript : MonoBehaviour
     void Start()
     {
 		AkSoundEngine.PostEvent("MENU_START", gameObject);
+		Cursor.lockState = CursorLockMode.None;
+		Cursor.visible = true;
     }
 
     public void Quit()
