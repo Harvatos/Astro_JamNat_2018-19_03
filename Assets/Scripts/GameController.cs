@@ -8,6 +8,8 @@ public class GameController : MonoBehaviour
 {
 	public static GameController instance;
 
+    public static string PlayerName;
+
 	public GameObject playerObject;
 	public CharacterInteraction playerInteraction;
 	public ScreenshootScript twitterCam;
