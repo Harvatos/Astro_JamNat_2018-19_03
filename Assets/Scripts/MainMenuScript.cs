@@ -50,4 +50,9 @@ public class MainMenuScript : MonoBehaviour
         }
     }
 
+    public void TwitterButton()
+    {
+        Application.OpenURL("https://twitter.com/NousBienvenue");
+    }
+
 }
