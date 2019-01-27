@@ -5,6 +5,8 @@ using static TwitterAPI;
 
 public class ScreenshootScript : MonoBehaviour
 {
+	public bool enableTwitterBot = true;	
+
     static string consumerKey = "ni1Pa2Rla9ezK2wFZh3saWWdr";
     static string consumerSecretKey = "Fu6dZlndgvyNhrTVwsmdzhOVbDnWnwYczBqdKrjpWntpS9yzef";
 
@@ -39,11 +41,17 @@ public class ScreenshootScript : MonoBehaviour
     IEnumerator TakeScreenshot(string name)
     {
         yield return new WaitForSeconds(2f);
-        ScreenCapture.CaptureScreenshot(dataPath + "/photo2.png");
+		if(enableTwitterBot)
+		{
+			 ScreenCapture.CaptureScreenshot(dataPath + "/photo2.png");
+		}
+       
 
         yield return new WaitForSeconds(2f);
-        var response = twitter.PublishToTwitter("This is the home of " + name, dataPath + "/photo2.png");
-
-        Debug.Log(response);
+		if(enableTwitterBot)
+		{
+			var response = twitter.PublishToTwitter("This is the home of " + name, dataPath + "/photo2.png");
+			Debug.Log(response);
+		}
     }
 }
