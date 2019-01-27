@@ -8,7 +8,7 @@ public class InteractableObject : MonoBehaviour
 
 	public string displayName = "Object";
 	public Rigidbody rb { get; private set; }
-	public MeshRenderer meshRenderer;
+	public MeshRenderer[] meshRenderer;
 	public Material burningMaterial;
 
 	public string audioEvent;
@@ -21,6 +21,7 @@ public class InteractableObject : MonoBehaviour
     {
 		rb = GetComponent<Rigidbody>();
 		gameObject.layer = 9;
+        meshRenderer = GetComponentsInChildren<MeshRenderer>();
     }
 
 	private void Update()
@@ -28,8 +29,16 @@ public class InteractableObject : MonoBehaviour
 		if (isBurning)
 		{
 			burnProgress += Time.deltaTime * burnSpeed;
-			meshRenderer.material.SetFloat("_DissolveValue", burnProgress);
-		}
+			// meshRenderer.material.SetFloat("_DissolveValue", burnProgress);
+            foreach (MeshRenderer mr in meshRenderer)
+            {
+                // mr.material.SetFloat("_DissolveValue", burnProgress);
+                foreach(Material m in mr.materials)
+                {
+                    m.SetFloat("_DissolveValue", burnProgress);
+                }
+            }
+        }
 	}
 
 	public void OnTriggerStay(Collider other)
@@ -39,8 +48,12 @@ public class InteractableObject : MonoBehaviour
 			isBurning = true;
 			AkSoundEngine.PostEvent(audioEvent, GameController.instance.playerObject);
 			GameController.instance.BoostHeat();
-			meshRenderer.material = burningMaterial;
-			Destroy(gameObject, 1f / burnSpeed);
+            //  meshRenderer.material = burningMaterial;
+            foreach (MeshRenderer mr in meshRenderer)
+            {
+                mr.material = new Material(burningMaterial);
+            }
+            Destroy(gameObject, 1f / burnSpeed);
 		}
 	}
 }
