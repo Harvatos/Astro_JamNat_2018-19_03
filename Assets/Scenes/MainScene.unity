@@ -4510,7 +4510,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1104376539, guid: ff1c0d00577342b4eb9fc98d37436314, type: 3}
       propertyPath: gameDuration
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1104376539, guid: ff1c0d00577342b4eb9fc98d37436314, type: 3}
       propertyPath: timerDisplay
@@ -4554,6 +4554,59 @@ PrefabInstance:
     - target: {fileID: 516082534, guid: ff1c0d00577342b4eb9fc98d37436314, type: 3}
       propertyPath: m_LocalPosition.z
       value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514753566, guid: ff1c0d00577342b4eb9fc98d37436314, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514753566, guid: ff1c0d00577342b4eb9fc98d37436314, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514753566, guid: ff1c0d00577342b4eb9fc98d37436314, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514753566, guid: ff1c0d00577342b4eb9fc98d37436314, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.22178459
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514753566, guid: ff1c0d00577342b4eb9fc98d37436314, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.32292762
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514753566, guid: ff1c0d00577342b4eb9fc98d37436314, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.07812443
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514753566, guid: ff1c0d00577342b4eb9fc98d37436314, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.91674757
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514753566, guid: ff1c0d00577342b4eb9fc98d37436314, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 27.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514753566, guid: ff1c0d00577342b4eb9fc98d37436314, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -38.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514753566, guid: ff1c0d00577342b4eb9fc98d37436314, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514753565, guid: ff1c0d00577342b4eb9fc98d37436314, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7910989992427297493, guid: ff1c0d00577342b4eb9fc98d37436314,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514753568, guid: ff1c0d00577342b4eb9fc98d37436314, type: 3}
+      propertyPath: enableTwitterBot
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7910989992425850069, guid: ff1c0d00577342b4eb9fc98d37436314, type: 3}

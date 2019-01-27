@@ -82,6 +82,12 @@ public class GameController : MonoBehaviour
 
 	private void GameUpdate()
 	{
+		if (Input.GetKeyDown(KeyCode.Escape))
+		{
+			EndGame_Quit();
+			return;
+		}
+
 		fadeScreen.alpha -= fadeSpeed * Time.deltaTime;
 
 		temperature -= temperatureLossSpeed * Time.deltaTime;
@@ -161,7 +167,7 @@ public class GameController : MonoBehaviour
 		iceOverlay.alpha = 0f;
 		fireOverlay.alpha = 0f;
 
-		twitterCam.TakeTweet("TestName");
+		twitterCam.TakeTweet("Test @PierrC1");
 		playerObject.SetActive(false);
 	}
 	public void EndGame_ColdDeath()
