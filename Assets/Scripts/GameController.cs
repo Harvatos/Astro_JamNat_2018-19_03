@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class GameController : MonoBehaviour
@@ -15,6 +16,7 @@ public class GameController : MonoBehaviour
 	public ScreenshootScript twitterCam;
 
     public TextMeshProUGUI subtitlesDisplay;
+	public TextMeshProUGUI timerDisplay;
 
 	public float temperature = 50f;
 	private float effectiveTemperature;
@@ -47,6 +49,8 @@ public class GameController : MonoBehaviour
 		gameTimer = gameDuration * 60f;
 
 		fadeScreen.alpha = 1f;
+
+		AkSoundEngine.PostEvent("MUS_START", gameObject);
     }
 
 	public void BoostHeat()
@@ -86,7 +90,7 @@ public class GameController : MonoBehaviour
 		iceOverlay.alpha = Mathf.InverseLerp(40f, 0f, effectiveTemperature);
 		fireOverlay.alpha = Mathf.InverseLerp(70f, 100f, effectiveTemperature);
 		fireFx.fireStrength = Mathf.InverseLerp(0f, 100f, effectiveTemperature) * 2f;
-		//AkSoundEngine.SetRTPCValue("Temperature", effectiveTemperature * 0.01f);
+		AkSoundEngine.SetRTPCValue("Temperature", effectiveTemperature * 0.01f);
 
 		if (effectiveTemperature <= 0f)
 			{ EndGame_ColdDeath(); return; }
@@ -95,36 +99,43 @@ public class GameController : MonoBehaviour
 			{ EndGame_FireDeath(); return; }
 
 		gameTimer = Mathf.Max(0f, gameTimer - Time.deltaTime);
+		timerDisplay.text = "Temps: " + Mathf.RoundToInt(gameTimer) + " sec";
 		if (gameTimer < 0.1f)
 			{ EndGame_Win(); return; }
 		
 	}
 	private void QuitUpdate()
 	{
-		fadeScreen.alpha += Time.deltaTime * fadeSpeed;
-		if (fadeScreen.alpha <= 0.01f)
+		fadeScreen.alpha += Time.deltaTime * fadeSpeed * 0.5f;
+		timerDisplay.text = "";
+		if (fadeScreen.alpha >= 0.99f)
 		{
-			//back to main menu
+			AkSoundEngine.PostEvent("MUS_STOP", gameObject);
+			SceneManager.LoadScene("MainMenu");
 		}
 	}
 	private void WinUpdate()
 	{
-		
+		timerDisplay.text = "";
 	}
 	private void ColdDeathUpdate()
 	{
-		fadeScreen.alpha += Time.deltaTime * fadeSpeed;
-		if (fadeScreen.alpha <= 0.01f)
+		timerDisplay.text = "";
+		fadeScreen.alpha += Time.deltaTime * fadeSpeed * 0.5f;
+		if (fadeScreen.alpha >= 0.99f)
 		{
-			//back to main menu
+			AkSoundEngine.PostEvent("MUS_STOP", gameObject);
+			SceneManager.LoadScene("MainMenu");
 		}
 	}
 	private void FireDeathUpdate()
 	{
-		fadeScreen.alpha += Time.deltaTime * fadeSpeed;
-		if (fadeScreen.alpha <= 0.01f)
+		timerDisplay.text = "";
+		fadeScreen.alpha += Time.deltaTime * fadeSpeed * 0.5f;
+		if (fadeScreen.alpha >= 0.99f)
 		{
-			//back to main menu
+			AkSoundEngine.PostEvent("MUS_STOP", gameObject);
+			SceneManager.LoadScene("MainMenu");
 		}
 	}
 
@@ -138,7 +149,6 @@ public class GameController : MonoBehaviour
 
 		playerInteraction.objectNameDisplay.text = "";
 		fadeScreenImage.color = quitFadeColor;
-		//Load main menu
 	}
 	public void EndGame_Win()
 	{
