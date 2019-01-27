@@ -12,8 +12,7 @@ public class GameController : MonoBehaviour
 	public CharacterInteraction playerInteraction;
 	public ScreenshootScript twitterCam;
 
-    // added 
-    TextMeshProUGUI subtitlesDisplay;
+    public TextMeshProUGUI subtitlesDisplay;
 
 	public float temperature = 50f;
 	private float effectiveTemperature;
@@ -76,6 +75,10 @@ public class GameController : MonoBehaviour
 
 		temperature -= temperatureLossSpeed * Time.deltaTime;
 		effectiveTemperature = Mathf.SmoothDamp(effectiveTemperature, temperature, ref smoothVelRef, temperatureSmoothTime);
+
+		//Update temperature overlay
+		//
+
 		if (effectiveTemperature <= 0f)
 			{ EndGame_ColdDeath(); return; }
 		
@@ -121,8 +124,8 @@ public class GameController : MonoBehaviour
 		Debug.Log("Quit game triggered");
 		gameState = GAMESTATE.Quit;
 
+		playerInteraction.objectNameDisplay.text = "";
 		fadeScreenImage.color = quitFadeColor;
-		//fade to black
 		//Load main menu
 	}
 	public void EndGame_Win()
@@ -130,6 +133,7 @@ public class GameController : MonoBehaviour
 		Debug.Log("Win triggered");
 		gameState = GAMESTATE.Win;
 
+		playerInteraction.objectNameDisplay.text = "";
 		fadeScreenImage.color = winFadeColor;
 
 		twitterCam.TakeTweet("TestName");
@@ -140,9 +144,8 @@ public class GameController : MonoBehaviour
 		Debug.Log("Cold death triggered");
 		gameState = GAMESTATE.Cold;
 
+		playerInteraction.objectNameDisplay.text = "";
 		fadeScreenImage.color = coldFadeColor;
-
-		//Fade to white
 
 		//Show cold death message
 	}
@@ -151,9 +154,9 @@ public class GameController : MonoBehaviour
 		Debug.Log("Fire death triggered");
 		gameState = GAMESTATE.Burn;
 
+		playerInteraction.objectNameDisplay.text = "";
 		fadeScreenImage.color = fireFadeColor;
 
-		//fade to red
 
 		//Show fire death message
 	}
