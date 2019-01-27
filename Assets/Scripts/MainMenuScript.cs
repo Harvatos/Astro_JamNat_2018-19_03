@@ -19,7 +19,7 @@ public class MainMenuScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+		AkSoundEngine.PostEvent("MENU_START", gameObject);
     }
 
     public void Quit()
@@ -46,7 +46,8 @@ public class MainMenuScript : MonoBehaviour
         {
             Debug.Log("Input Correct");
         GameController.PlayerName = InputField.text;
-        SceneManager.LoadScene(1);
+		AkSoundEngine.PostEvent("MENU_STOP", gameObject);
+		SceneManager.LoadScene(1);
         }
     }
 

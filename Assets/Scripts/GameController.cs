@@ -170,7 +170,7 @@ public class GameController : MonoBehaviour
 
 		
 
-		twitterCam.TakeTweet("Test @PierrC1");
+		twitterCam.TakeTweet(PlayerName);
 		playerObject.SetActive(false);
 		AkSoundEngine.PostEvent("SFX_Camera", twitterCam.gameObject);
 	}

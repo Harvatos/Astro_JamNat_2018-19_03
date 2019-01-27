@@ -55,6 +55,7 @@ public class ScreenshootScript : MonoBehaviour
 			var response = twitter.PublishToTwitter("Bienvenue chez " + name + " #GGJ19 #AstrolabeInteractive", dataPath + "/chez_"+ name +".png");
 			Debug.Log(response);
 		}
+		AkSoundEngine.PostEvent("MUS_STOP", GameController.instance.gameObject);
 		SceneManager.LoadScene(0);
     }
 }
