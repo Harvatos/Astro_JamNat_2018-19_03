@@ -51,7 +51,8 @@ public class GameController : MonoBehaviour
 		fadeScreen.alpha = 1f;
 
 		AkSoundEngine.PostEvent("MUS_START", gameObject);
-    }
+		AkSoundEngine.PostEvent("SFX_Door", gameObject);
+	}
 
 	public void BoostHeat()
 	{
@@ -167,8 +168,11 @@ public class GameController : MonoBehaviour
 		iceOverlay.alpha = 0f;
 		fireOverlay.alpha = 0f;
 
+		
+
 		twitterCam.TakeTweet("Test @PierrC1");
 		playerObject.SetActive(false);
+		AkSoundEngine.PostEvent("SFX_Camera", twitterCam.gameObject);
 	}
 	public void EndGame_ColdDeath()
 	{
