@@ -22,6 +22,9 @@ public class GameController : MonoBehaviour
 
 	public float burnHeatBoost = 30f;
 
+	public CanvasGroup iceOverlay;
+	public CanvasGroup fireOverlay;
+
 	[Range(1, 5)]public int gameDuration = 1;
 	public float gameTimer;
 
@@ -76,8 +79,10 @@ public class GameController : MonoBehaviour
 		temperature -= temperatureLossSpeed * Time.deltaTime;
 		effectiveTemperature = Mathf.SmoothDamp(effectiveTemperature, temperature, ref smoothVelRef, temperatureSmoothTime);
 
-		//Update temperature overlay
-		//
+		iceOverlay.alpha = Mathf.InverseLerp(40f, 0f, effectiveTemperature);
+		fireOverlay.alpha = Mathf.InverseLerp(70f, 100f, effectiveTemperature);
+
+		//AkSoundEngine.SetRTPCValue("Temperature", effectiveTemperature * 0.01f);
 
 		if (effectiveTemperature <= 0f)
 			{ EndGame_ColdDeath(); return; }

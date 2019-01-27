@@ -37,6 +37,7 @@ public class InteractableObject : MonoBehaviour
 		if (!isBurning && other.CompareTag("FirePit") && GameController.instance.playerInteraction.objectInHand != this)
 		{
 			isBurning = true;
+			AkSoundEngine.PostEvent(audioEvent, GameController.instance.playerObject);
 			GameController.instance.BoostHeat();
 			meshRenderer.material = burningMaterial;
 			Destroy(gameObject, 1f / burnSpeed);
